@@ -1,0 +1,30 @@
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+
+# Node.js
+node_modules/
+dist/
+build/
+
+# Secrets
+.env
+.env.*
+!.env.example
+
+# Dataset archives and raw data
+*.zip
+data/raw/
+data/private/
+
+# Model artifacts and experiment outputs
+models/
+checkpoints/
+outputs/
+
+# macOS
+.DS_Store
